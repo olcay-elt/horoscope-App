@@ -1,15 +1,15 @@
-@import "./scss/mixins" @import "./scss/reset" @import "./scss/variable" @import
-	url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import "./scss/reset";
+@import "./scss/variables";
+@import "./scss/mixins";
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap");
 
 body {
-	$backgroundImage: linear-gradient(
-		225deg,
-		#000000 0%,
-		#cd890c 90%,
-		#2b86c5 100%
-	);
+	background-image: $backgroundImage;
 	font-family: "Rubik Distressed", cursive;
+	height: 100vh;
 }
 
 p {

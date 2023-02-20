@@ -1,4 +1,4 @@
-@import "../../scss/variable";
+@import "../../scss/variables";
 
 .navbar {
 	background-color: $cardNavBgColor;
@@ -6,23 +6,24 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 1rem;
-}
 
-.links {
-	display: flex;
-	font-size: 1.5rem;
-	justify-content: end;
-	gap: 2%;
+	.links {
+		display: flex;
+		font-size: 1.5rem;
+		justify-content: end;
+		gap: 2%;
 
-	a {
-		color: $secondaryColor;
-		text-decoration: none;
-		text-transform: uppercase;
-		padding: 0.5rem;
-		border-radius: 5px;
-		&:hover {
-			background-color: $secondaryColor;
-			color: ;
+		a {
+			color: $secondaryColor;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 0.5rem;
+			border-radius: 5px;
+
+			&:hover {
+				background-color: $secondaryColor;
+				color: $cardNavBgColor;
+			}
 		}
 	}
 

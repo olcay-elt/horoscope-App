@@ -1,7 +1,12 @@
+
+import "./Header.scss";
+
 const Header = () => {
     return (
         <div className="header">
-            <h1></h1>
+            <span className="text-shadow">Who are You ?</span>
         </div>
     )
 }
+
+export default Header;
