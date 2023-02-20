@@ -1,4 +1,3 @@
-
 import "./Navbar.scss";
 import logo from "../../helpers/logo.png";
 
